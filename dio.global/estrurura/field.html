@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fildesets</title>
+    <style>
+        .row{
+            margin: 5px;
+        }
+        label{
+            width: 100px;
+            text-align: right;
+            display: inline-block;
+            padding-right: 5px;
+        }
+
+        fieldset{
+            margin: 15px 0;
+            border-radius: 10px;
+            border-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulário de cadastro</h1>
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <div class="row">
+            <label for="nome">Nome:</label><input type="text" />
+            <label for="nome">E-mail:</label><input type="text" />
+        </div>
+        <div class="row">
+            <label for="nome">Profissão:</label><input type="text" />
+            <label for="nome">Empresa:</label><input type="text" />
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Endereço</legend>
+        <div class="row">
+            <label for="nome">Endereço:</label><input type="text" />
+            <label for="nome">Número:</label><input style="width: 30px;" type="text" />
+        </div>
+        <div class="row">
+            <label for="nome">Bairro:</label><input type="text" />
+        </div>
+        <div class="row">
+            <label for="nome">Cidade/UF:</label><input type="text" />
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Informações de Contato</legend>    
+        <div class="row">
+            <label for="nome">Celular:</label><input type="text" />
+            <label for="nome">WhasApp:</label><input type="text" />
+        </div>
+        
+        <div class="row">
+            <label for="nome">Linkedin:</label><input type="text" />
+            <label for="nome">Github:</label><input type="text" />
+        </div>
+    </fieldset>
+        <div class="row">
+            <button type="reset">
+                Limpar
+            </button>
+            <button type="submit">
+                Enviar Formulário
+            </button>
+        </div>
+</body>
+</html>
